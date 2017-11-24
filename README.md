@@ -18,6 +18,11 @@ if string.range(of:"Swift") != nil {
 if string.lowercased().range(of:"swift") != nil {
     print("exists")
 }
+
+// alternative: case sensitive
+if string.lowercased().range(of:"sWiFt".lowercased()) != nil {
+    print("exists")
+}
 ```
 
 ## Fuente
